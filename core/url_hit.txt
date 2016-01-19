@@ -1,0 +1,13 @@
+https://api.github.com/orgs/GoBeyondStudios?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/WiCIP?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/lightwirelimited?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/BrightcoveKK-PS?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/openmrs?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/MyBucketList?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/sherpr?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/carelink?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/darenet?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/intechgrp?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/batura?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/GIUZ-IT?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7
+https://api.github.com/orgs/racerTC?client_id=adad980c28260d504dd2&client_secret=a110928a9d11b56ac38ef2f3cd5d79a98c7e11e7

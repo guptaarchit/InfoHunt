@@ -1,0 +1,75 @@
+import cgi  --->> The Common Gateway Interface, or CGI, is a set of standards that define how information is exchanged between the web server and a custom script.
+#request.args --> contain argument like anything follows path info i.e /1/2/3/4/dasd
+#request.vars -->contain varibles like anything follows ?a=b&c=d
+#request.env --> contain parsed HTTP address
+request.env.http_accept_language
+
+request.args=['Hello','world'] # come from  url like : http:// ...../app/controller/function/hello/world
+
+request.vars={'a':1} # come from  url like: http://...../ app/controller/function?a=1
+
+session.a,session.b,session.<name> ='anything'
+
+session.flash ->> flash on next page 
+session.flash-->response.flash
+
+response.flash -->many option
+
+T("messsage to be translate")
+
+form =SQLFORM.factory(...Field(...),...).process()
+
+if form.accepted":
+	....
+elif form.errors:
+	....
+else .....
+
+
+redirect(URL('function',args=[...],vars={...}))
+
+{{=...}} -->in views
+
+	
+#locals() -->> returns all the local variable
+v=request.vars
+# printing var in browser-->>"your vars value is %s"% cgi.escape(str(v))
+#return locals() -->> return all the local variable
+index():#if  no function is call then browser will look for index function by default
+#in controler redirect
+	redirect(URL('passing_arg',args=[1,2,3,'wola'],vars={'search':'Gaurav','b':19}))
+# explicit URL
+    #redirect('http://google.com')
+    
+def passing_arg():
+    x=request.args
+    y=request.vars
+    return 'agrument passed is: %s and request.vars= %s'%(x,SPAN(y))
+
+
+
+
+
+basic form handeling
+ def form_handel():
+ form=SQLFORM.factory(Field('your_name',requires=IS_NOT_EMPTY()),Field('birth_date','date')).process()
+
+if form.accepted:
+	session.flash='Form accepted'
+	redirect(URL('other',vars={'your_name':form.vars.your_name}))
+elif form.errors:
+	response.flash='Form contain Errors'
+else:
+	response.flash="Form Displayed for the first time"
+return locals()
+
+def other():
+message='Welcome %s !'%request.vars.your_name
+return locals()
+
+{{=BEAUTIFY(response._vars)}}
+
+
+
+
+The GHTorent project  uses  the  Github API to  collect  raw  data  and  extract, archive  and  share  queryable  metadata.  The  created  datasets have  already  been  exploited  in  other  work  (analysis  of  the pull development model, analysis of drive-by commits and analysis of test incentives on social sites) while collaborations with external research groups are under way
